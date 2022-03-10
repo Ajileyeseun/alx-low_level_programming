@@ -1,9 +1,9 @@
-#include  <stdio.h>
+#include <stdio.h>
 
 /**
- * main - Where programs are executed
- * 
- *  Return: 0
+ * main - programs are executed here
+ *
+ * Return 0
  */
 
 int main(void)
