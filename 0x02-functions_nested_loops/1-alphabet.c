@@ -1,17 +1,19 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet, in lower case, followed by a new line
+ * print_alphabet - prints the alphabets
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropraitely.
+ * Return: returns 0
  */
 
 void print_alphabet(void)
 {
-	int i;
+char alpha;
 
-	for (i = 97; i <= 122; i++)
-		_putchar(i);
-	_putchar('\n');
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+{
+_putchar (alpha);
+}
+_putchar ('\n');
 }
