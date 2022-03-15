@@ -18,6 +18,5 @@ int main(void)
 	printf("\n"); /*new line*/
 
 	return (0);
-
 }
 		
