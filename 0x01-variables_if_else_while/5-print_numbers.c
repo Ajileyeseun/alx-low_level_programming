@@ -5,7 +5,6 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-
 {
 	int i; /*Decarling statement*/
 
@@ -18,8 +17,4 @@ int main(void)
 	printf("\n"); /*new line*/
 
 	return (0);
-
 }
-
-
-		
