@@ -1,19 +1,20 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabets
- *
- * Return: returns 0
- */
+*print_alphabet - prints the alphabet, in lowercase, followed by a new line
+*/
 
 void print_alphabet(void)
 {
-char alpha;
+	char alphabet;
 
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-{
-_putchar (alpha);
-}
-_putchar ('\n');
+	alphabet = 'a';
+
+	while (alphabet <= 'z')
+	{
+		_putchar(alphabet);
+		alphabet++;
+	}
+	_putchar('\n');
 }
