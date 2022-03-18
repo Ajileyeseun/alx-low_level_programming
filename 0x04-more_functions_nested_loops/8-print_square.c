@@ -1,28 +1,29 @@
-nclude "main.h"
+#include "main.h"
+
 /**
-* print_square - function that checks for uppercase character.
-* @size: the int for the paramaters of my function
-* Return: 0
+* print_square - prints a square
+* @size: the size of the square
+*
+* Return: no return
 */
+
 void print_square(int size)
 {
-	int a = 0;
-	int b = 0;
+	int i, j;
 
 	if (size > 0)
 	{
-		while (a < size)
+		for (i = 0; i < size; i++)
 		{
-			while (b < size)
+			for (j = 0; j < size; j++)
 			{
 				_putchar('#');
-				b++;
 			}
-			b = 0;
-			a++;
 			_putchar('\n');
 		}
 	}
-	else
+	else if (size <= 0)
+	{
 		_putchar('\n');
+	}
 }
