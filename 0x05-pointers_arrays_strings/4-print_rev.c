@@ -12,6 +12,7 @@ void print_rev(char *s)
 	int right_index = strlen(s) - 1;
 	int i;
 	for (i = right_index; i >= left_index; i--)
+
 	{
 		_putchar(s[i]);
 	}
